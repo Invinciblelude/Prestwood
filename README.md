@@ -33,24 +33,26 @@ AI-powered executive assistant deliverables for healthcare requirements manageme
 ### Structure
 
 ```
-web/
 ├── index.html              # Prestwood IT Solutions (main company)
 ├── css/prestwood.css       # Company site styles
 └── projects/
+    ├── claritycare/        # ClarityCare Health Network marketing site
     └── health-care-for-alison/   # Healthcare requirements app
-        ├── index.html
-        ├── css/styles.css
-        └── js/
 ```
 
 ### Run locally
 
 ```bash
-cd web && python3 -m http.server 8088
+python3 -m http.server 8088
 ```
 
 - **Main company:** http://localhost:8088
+- **ClarityCare:** http://localhost:8088/projects/claritycare/
 - **Health Care for Alison:** http://localhost:8088/projects/health-care-for-alison/
+
+### GitHub Pages
+
+Site is published at: **https://invinciblelude.github.io/Prestwood/**
 
 ### Prestwood IT Solutions
 
