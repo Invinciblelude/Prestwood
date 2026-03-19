@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ClarityCare Patient Portal — view results, message your care team, pay bills, and schedule appointments securely.">
+  <title>Patient Portal | ClarityCare Health Network</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">ClarityCare Health Network</a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="patient-portal.html">Patient Portal</a>
+        <a href="technology.html">Technology & Security</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Patient Portal</h1>
+        <p>Your health information, secure and accessible—anytime, anywhere.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Key features</h2>
+        <p class="section-intro">Manage your care from one secure place.</p>
+        <div class="benefits-grid">
+          <article class="benefit-card">
+            <h3>View test results and visit summaries</h3>
+            <p>See lab results, imaging reports, and visit notes as soon as they’re available. No more waiting for a phone call.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Secure messaging with your care team</h3>
+            <p>Ask questions, request refills, or share updates with your providers through encrypted messaging—with responses typically within one business day.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Online bill pay</h3>
+            <p>View statements and pay your balance securely. Set up payment plans or update insurance information.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Appointment scheduling and telehealth links</h3>
+            <p>Book appointments, reschedule, or join virtual visits with a single click. All links and reminders are sent securely.</p>
+          </article>
+        </div>
+        <p style="margin-top: 1.5rem; color: var(--color-text-muted); font-size: 0.95rem;">We use data encryption, strong access controls, and industry best practices to protect your information. Your health data is never shared outside your care team without your consent.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Get started in 3 steps</h2>
+        <div class="work-steps">
+          <article class="work-step">
+            <div class="work-step-num">1</div>
+            <h3>Receive your invite</h3>
+            <p>After your first visit, we’ll send you an email invitation to create your portal account. Check your inbox (and spam folder).</p>
+          </article>
+          <article class="work-step">
+            <div class="work-step-num">2</div>
+            <h3>Create your secure login</h3>
+            <p>Follow the link to set up your username and password. Use a strong, unique password and keep it private.</p>
+          </article>
+          <article class="work-step">
+            <div class="work-step-num">3</div>
+            <h3>Manage your care</h3>
+            <p>Log in anytime to view results, message your care team, schedule appointments, and pay bills.</p>
+          </article>
+        </div>
+        <p style="margin-top: 2rem; text-align: center;"><a href="contact.html#book-appointment" class="btn btn-primary">Book an Appointment to Get Started</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="services.html">Services</a><br>
+          <a href="patient-portal.html">Patient Portal</a><br>
+          <a href="technology.html">Technology & Security</a>
+        </div>
+        <div>
+          <a href="about.html">About</a><br>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>ClarityCare Health Network · Patient-centered care powered by secure technology</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.nav-toggle')?.addEventListener('click', () => {
+      document.querySelector('.site-nav').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

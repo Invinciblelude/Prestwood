@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact ClarityCare Health Network — book an appointment or schedule a clinic consultation.">
+  <title>Contact | ClarityCare Health Network</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">ClarityCare Health Network</a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="patient-portal.html">Patient Portal</a>
+        <a href="technology.html">Technology & Security</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>Book an appointment, schedule a clinic consultation, or reach our team.</p>
+      </div>
+    </section>
+
+    <section class="section" id="book-appointment">
+      <div class="container">
+        <h2 class="section-title">Book an Appointment</h2>
+        <p class="section-intro">Request an in-person or virtual visit. We’ll confirm your appointment within one business day.</p>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="patient-first">First name</label>
+              <input type="text" id="patient-first" name="patient_first" required>
+            </div>
+            <div class="form-group">
+              <label for="patient-last">Last name</label>
+              <input type="text" id="patient-last" name="patient_last" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="patient-email">Email</label>
+            <input type="email" id="patient-email" name="patient_email" required>
+          </div>
+          <div class="form-group">
+            <label for="patient-phone">Phone</label>
+            <input type="tel" id="patient-phone" name="patient_phone" required>
+          </div>
+          <div class="form-group">
+            <label for="visit-type">Visit type</label>
+            <select id="visit-type" name="visit_type">
+              <option value="in-person">In-person</option>
+              <option value="virtual">Virtual (telehealth)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="patient-message">Preferred date/time or message</label>
+            <textarea id="patient-message" name="patient_message" rows="4" placeholder="Let us know your preferred date, time, or any questions."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Request</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="clinic-consultation">
+      <div class="container">
+        <h2 class="section-title">Talk to Our Team About Your Clinic</h2>
+        <p class="section-intro">Interested in partnering with ClarityCare? Schedule a consultation to learn how we can support your practice.</p>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="clinic-name">Practice or clinic name</label>
+              <input type="text" id="clinic-name" name="clinic_name" required>
+            </div>
+            <div class="form-group">
+              <label for="clinic-contact">Your name</label>
+              <input type="text" id="clinic-contact" name="clinic_contact" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="clinic-email">Email</label>
+            <input type="email" id="clinic-email" name="clinic_email" required>
+          </div>
+          <div class="form-group">
+            <label for="clinic-phone">Phone</label>
+            <input type="tel" id="clinic-phone" name="clinic_phone" required>
+          </div>
+          <div class="form-group">
+            <label for="clinic-message">Tell us about your practice</label>
+            <textarea id="clinic-message" name="clinic_message" rows="4" placeholder="Number of providers, current challenges, or what you’re looking for."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Schedule Consultation</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Phone, email & locations</h2>
+        <div class="trust-grid">
+          <div class="trust-block">
+            <h4>Phone</h4>
+            <p><a href="tel:+19165551234">(916) 555-1234</a></p>
+          </div>
+          <div class="trust-block">
+            <h4>Email</h4>
+            <p><a href="mailto:info@claritycarehealth.org">info@claritycarehealth.org</a></p>
+          </div>
+          <div class="trust-block">
+            <h4>Main location</h4>
+            <p>1234 Health Way, Suite 100<br>Citrus Heights, CA 95610</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Frequently asked questions</h2>
+        <div class="faq-list">
+          <article class="faq-item">
+            <h4>Do you accept my insurance?</h4>
+            <p>We accept most major insurance plans. When you book an appointment, our team will verify your coverage. You can also call us to confirm before your visit.</p>
+          </article>
+          <article class="faq-item">
+            <h4>Can I get a same-day appointment?</h4>
+            <p>Yes. We offer same-day in-person and virtual visits when availability allows. Book online or call to check same-day options.</p>
+          </article>
+          <article class="faq-item">
+            <h4>How does telehealth work?</h4>
+            <p>After you schedule a virtual visit, you’ll receive an email with a secure link. At your appointment time, click the link to join the video visit from your phone, tablet, or computer. No special software is required.</p>
+          </article>
+          <article class="faq-item">
+            <h4>Is my health information safe online?</h4>
+            <p>Yes. We use encryption, strong access controls, and industry best practices to protect your data. Our systems are monitored and backed up by a dedicated IT partner. Your information is never shared outside your care team without your consent.</p>
+          </article>
+          <article class="faq-item">
+            <h4>What do I need for a telehealth visit?</h4>
+            <p>A device with a camera and microphone (phone, tablet, or computer), a stable internet connection, and a private, quiet space. You’ll receive a link before your appointment—no app download required.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="services.html">Services</a><br>
+          <a href="patient-portal.html">Patient Portal</a><br>
+          <a href="technology.html">Technology & Security</a>
+        </div>
+        <div>
+          <a href="about.html">About</a><br>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>ClarityCare Health Network · Patient-centered care powered by secure technology</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.nav-toggle')?.addEventListener('click', () => {
+      document.querySelector('.site-nav').classList.toggle('open');
+    });
+    document.querySelectorAll('form').forEach(form => {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you. This is a demo form. In production, this would submit to your backend.');
+      });
+    });
+  </script>
+</body>
+</html>

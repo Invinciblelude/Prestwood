@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ClarityCare Health Network services: primary care, specialty clinics, telehealth, and employer health programs.">
+  <title>Services | ClarityCare Health Network</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">ClarityCare Health Network</a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="patient-portal.html">Patient Portal</a>
+        <a href="technology.html">Technology & Security</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Our Services</h1>
+        <p>Comprehensive care from routine checkups to specialty care—with digital workflows that make every visit smoother.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="services-list">
+          <article class="service-item">
+            <h3>Primary & preventive care</h3>
+            <div>
+              <p>Annual wellness visits, screenings, vaccinations, and chronic disease management. Our primary care teams focus on prevention and long-term health.</p>
+              <p><strong>Who it’s for:</strong> Adults and families seeking a medical home.</p>
+              <p><strong>Digital advantage:</strong> Online intake forms, secure messaging for follow-up questions, and fast results in the patient portal—so you spend less time in the waiting room and more time on what matters.</p>
+            </div>
+          </article>
+          <article class="service-item">
+            <h3>Specialty clinics</h3>
+            <div>
+              <p>Cardiology, orthopedics, women’s health, and more. Our specialists work with your primary care team to coordinate care.</p>
+              <p><strong>Who it’s for:</strong> Patients referred for specialized care or follow-up.</p>
+              <p><strong>Digital advantage:</strong> Shared records across specialties, so your cardiologist and primary care provider see the same information. Secure referrals and follow-up messaging keep everyone aligned.</p>
+            </div>
+          </article>
+          <article class="service-item">
+            <h3>Telehealth and virtual visits</h3>
+            <div>
+              <p>Connect with your care team from home. Video visits for routine follow-ups, medication reviews, and minor concerns—when an in-person visit isn’t necessary.</p>
+              <p><strong>Who it’s for:</strong> Patients who prefer convenience or have mobility or scheduling challenges.</p>
+              <p><strong>Digital advantage:</strong> One-click telehealth links from the portal, secure video platform, and visit summaries delivered right after your appointment.</p>
+            </div>
+          </article>
+          <article class="service-item">
+            <h3>Employer and occupational health programs</h3>
+            <div>
+              <p>Workplace wellness, pre-employment screenings, injury care, and occupational health services for employers and their employees.</p>
+              <p><strong>Who it’s for:</strong> Employers seeking on-site or coordinated occupational health programs.</p>
+              <p><strong>Digital advantage:</strong> Streamlined scheduling, secure results sharing with authorized employers, and reporting dashboards for program administrators.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">For clinics & partners</h2>
+        <p class="section-intro">ClarityCare can support smaller practices using its IT-enabled platform.</p>
+        <p>If you run a clinic or practice and want to leverage shared resources—appointment routing, shared records, secure messaging—we can help. Our platform connects you with larger network capabilities while keeping your practice identity and workflows intact.</p>
+        <ul class="feature-list">
+          <li>Shared appointment scheduling and routing</li>
+          <li>Secure, interoperable health records</li>
+          <li>Secure messaging between care teams</li>
+          <li>Centralized support for IT and compliance</li>
+        </ul>
+        <p style="margin-top: 1.5rem;"><a href="contact.html#clinic-consultation" class="btn btn-primary">Schedule a Consultation for Your Clinic</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="services.html">Services</a><br>
+          <a href="patient-portal.html">Patient Portal</a><br>
+          <a href="technology.html">Technology & Security</a>
+        </div>
+        <div>
+          <a href="about.html">About</a><br>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>ClarityCare Health Network · Patient-centered care powered by secure technology</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.nav-toggle')?.addEventListener('click', () => {
+      document.querySelector('.site-nav').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

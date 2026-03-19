@@ -1,0 +1,11 @@
+Requirement_ID,Policy_Procedure_ID,Control_Implementation,Evidence_Report,Last_Updated
+REQ-001,POL-SEC-02 Access Control Policy,EHR user provisioning; unique IDs per user,Monthly access review report,
+REQ-002,POL-SEC-03 Authentication Policy,MFA enabled on EHR; VPN; patient portal,IT configuration audit,
+REQ-003,POL-SEC-04 Encryption Policy,Database encryption; file-level encryption,Encryption audit report,
+REQ-004,POL-SEC-04 Encryption Policy,TLS for all PHI transmission; secure messaging,Network security scan,
+REQ-005,POL-SEC-01 Risk Management,SRA conducted annually; threats/vulnerabilities documented,SRA document; remediation plan,
+REQ-006,POL-PRIV-01 Business Associates,BAA template; vendor inventory with BAA status,BAA log; vendor list,
+REQ-007,POL-SEC-05 Audit Logging,Logging enabled on EHR; access logs retained,Audit log sample; retention policy,
+REQ-008,POL-SEC-06 Marketing/Tracking,Website audit; BAA for tracking tools that touch PHI,Tracking tool inventory,
+REQ-009,POL-TRAIN-01 Workforce Training,LMS; role-based modules; completion tracking,Training completion report,
+REQ-010,POL-SEC-07 Incident Response,IR plan; breach notification procedures,IR plan document; drill log,

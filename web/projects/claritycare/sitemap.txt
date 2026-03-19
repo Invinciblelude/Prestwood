@@ -1,0 +1,8 @@
+# ClarityCare Health Network — Sitemap
+
+Home          index.html
+Services      services.html
+Patient Portal patient-portal.html
+Technology    technology.html
+About         about.html
+Contact       contact.html

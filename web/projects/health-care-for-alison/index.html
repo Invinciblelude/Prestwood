@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Healthcare Requirements Management — 10-step framework for Alison's organization. Built by Prestwood IT Solutions.">
+  <title>Healthcare Requirements Management | Prestwood IT Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="../../index.html" class="logo logo-back">← Prestwood IT Solutions</a>
+      <span class="project-badge">Health Care for Alison</span>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="../../index.html">Back to Prestwood</a>
+        <a href="#" data-nav="hero">Home</a>
+        <a href="#" data-nav="steps">10 Steps</a>
+        <a href="#" data-nav="requirements">Requirements</a>
+        <a href="#" data-nav="traceability">Traceability</a>
+        <a href="#" data-nav="developer">Developer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <p class="hero-badge">Web Development Project · Prestwood IT Solutions</p>
+        <h1>Healthcare Requirements Management</h1>
+        <p class="hero-subtitle">10-step framework for compliance, traceability, and audit readiness — built for Alison's organization</p>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">10</span><span class="stat-label">Steps</span></div>
+          <div class="stat"><span class="stat-num">20</span><span class="stat-label">Requirements</span></div>
+          <div class="stat"><span class="stat-num">2025</span><span class="stat-label">Compliant</span></div>
+        </div>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary" data-nav="steps">View Framework</a>
+          <a href="#" class="btn btn-secondary" data-nav="requirements">Browse Requirements</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="steps" class="section steps-section">
+      <div class="container">
+        <h2 class="section-title">10 Steps to Requirements Management</h2>
+        <p class="section-intro">A complete framework aligned with 2025–2026 regulatory priorities: OCR Risk Analysis Enforcement, mandatory MFA, and OIG seven elements.</p>
+        <div class="steps-grid" id="stepsGrid"></div>
+      </div>
+    </section>
+
+    <section id="requirements" class="section requirements-section">
+      <div class="container">
+        <h2 class="section-title">Requirements Repository</h2>
+        <p class="section-intro">Pre-seeded HIPAA, security, billing, and operational requirements. Filter and search below.</p>
+        <div class="requirements-toolbar">
+          <input type="search" id="reqSearch" placeholder="Search requirements..." class="search-input" aria-label="Search requirements">
+          <select id="reqCategory" class="filter-select" aria-label="Filter by category">
+            <option value="">All Categories</option>
+            <option value="Privacy/Security">Privacy/Security</option>
+            <option value="Billing">Billing</option>
+            <option value="Operations">Operations</option>
+          </select>
+          <select id="reqPriority" class="filter-select" aria-label="Filter by priority">
+            <option value="">All Priorities</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+          </select>
+          <select id="reqStatus" class="filter-select" aria-label="Filter by status">
+            <option value="">All Statuses</option>
+            <option value="Not Started">Not Started</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Implemented">Implemented</option>
+            <option value="Monitored">Monitored</option>
+          </select>
+        </div>
+        <div class="table-wrapper">
+          <table class="data-table requirements-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Source</th>
+                <th>Category</th>
+                <th>Priority</th>
+                <th>Owner</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="requirementsBody"></tbody>
+          </table>
+        </div>
+        <p class="table-count" id="reqCount"></p>
+      </div>
+    </section>
+
+    <section id="traceability" class="section traceability-section">
+      <div class="container">
+        <h2 class="section-title">Traceability Matrix</h2>
+        <p class="section-intro">Requirement → Policy → Control → Evidence chain for audit readiness.</p>
+        <div class="table-wrapper">
+          <table class="data-table traceability-table">
+            <thead>
+              <tr>
+                <th>Requirement</th>
+                <th>Policy / Procedure</th>
+                <th>Control / Implementation</th>
+                <th>Evidence / Report</th>
+              </tr>
+            </thead>
+            <tbody id="traceabilityBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="developer" class="section developer-section">
+      <div class="container">
+        <h2 class="section-title">Built by Prestwood IT Solutions</h2>
+        <div class="developer-card">
+          <div class="developer-content">
+            <h3>Web Development & Technical Lead</h3>
+            <p>This platform was built by Prestwood IT Solutions to support Alison's healthcare organization with a modern, mobile-friendly requirements management system. As the developer for this healthcare company, we deliver:</p>
+            <ul>
+              <li><strong>Web & mobile-first design</strong> — Responsive across all devices</li>
+              <li><strong>Data-driven dashboards</strong> — Requirements, traceability, and compliance at a glance</li>
+              <li><strong>HIPAA-aware architecture</strong> — Designed with privacy and security in mind</li>
+              <li><strong>Scalable foundations</strong> — Ready to integrate with EHR, GRC tools, or APIs</li>
+            </ul>
+            <p>This is a living system: requirements can be updated, new workflows added, and the traceability matrix extended as the organization grows. We can extend this platform with authentication, role-based access, automated reporting, or integrations with VComply, Notion, or your existing compliance stack.</p>
+            <div class="developer-cta">
+              <a href="../../index.html#contact" class="btn btn-primary">Contact Prestwood IT Solutions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Health Care for Alison — Healthcare Requirements Management Framework</p>
+      <p class="footer-meta">Built by Prestwood IT Solutions · Last updated March 2025 · <a href="../../index.html">Back to Prestwood</a></p>
+    </div>
+  </footer>
+
+  <div class="modal" id="stepModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <h2 id="modalTitle" class="modal-title"></h2>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
